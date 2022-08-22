@@ -1,0 +1,375 @@
+body{
+    background-color: #F5F5F5;
+}
+#linksfoot{
+    text-decoration: none;
+}
+#fbfooter{
+    font-size: 33px;
+}
+.containerpictext{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.picun{
+    height: 300px;
+    width: 400px;
+    flex: 0 0 60%;
+    padding: 20px;
+}
+.linkPlatJour{
+    color: #1C1F23;
+    text-decoration: none;
+}
+.linkPlatJour:hover{
+    color: #1C1F23;
+
+}
+.souliProg {
+    width:0px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #1C1F23;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+
+.textindex{
+    color: black;
+    text-align: center;
+    flex: 0 0 40%;
+    
+    width: 400px;
+}
+.textcard{
+    font-size: 1.2em;
+}
+.banner-image{
+    background-image: url('../img/banner-restau.jpeg');
+    
+}
+.banner-menu{
+    background-image: url(../img/banner-menu.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.banner-contact{
+    background-image: url(../img/contact.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.banner-reserv{
+    background-image: url('../img/reserver.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.special-heading-1{
+    font-family: "Aguafina Script";
+    line-height: 70px;
+    margin-top: -250px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+}
+
+
+.linkschoice{
+
+    font-size: 1.3em;
+    font-style:italic;
+    text-decoration: none;
+    color: black;
+}
+.linkschoice:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.h1Connex{
+    padding-top: 200px;
+    margin-bottom: 100px;
+}
+.tinylogo{
+    height: 80px;
+    width: 80px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+#linksfoot:hover{
+    text-decoration: underline;
+}
+#bannerlacarte{
+    filter: brightness(70%);
+}
+.special-heading-2{
+    font-family: "Aguafina Script";
+    line-height: 70px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+}
+#formContact{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.fibre{
+    background-image: url(../img/fibrecarbonne.jpeg);
+    filter: brightness(85%);
+    height: 100vh;
+    width: 99,99vw;
+}
+
+/* La carte */
+.menu-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.menu-title{
+    margin-bottom: 100px;
+    color: black;
+    font-style: italic;
+    
+}
+.menu-categories{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10ch;
+}
+.menu-category{
+    border:none;
+    background-color: #1C1F23;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    transition: all 0.4s ease-in-out;
+}
+.menu-category > a{
+    text-decoration: none;
+    color: white;
+
+}
+.menu-category:hover{
+    background-color: #1c1f237c;
+    
+}
+.menu-category:hover > a {
+    color:black;
+    font-style: italic;
+    
+}
+
+
+#lastdiv{
+    margin-top: 10ch;
+}
+/* Fin de la carte */
+/* Carte automatisée */
+.boxGeneCat{
+    margin-left: 20%;
+    
+}
+.boxDivProduct{
+    width: 50vw;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    
+}
+.containerBoxFood{
+    margin-top: 100px;
+    
+    margin-bottom: 100px;
+}
+.BoxImgProduct{
+    width: 150px;
+    height: 150px;
+}
+.descCard{
+    min-width:500px ;
+}
+/* Fin de la carte automat */
+/* Réservation */
+fieldset {
+    border:1px solid rgba(30, 29, 29, 0.2);
+    padding: 7px;
+    display: flex;
+    gap: 13ch;
+    justify-content: center;
+    
+    
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+/* Fin réservation */
+/* CRUD */
+.container-tools{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 2em;
+}
+.boxTools{
+    gap:40ch;
+    
+}
+.container-reserv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.couverts{
+    display: flex;
+    flex-direction: row;
+    gap:50ch;
+    margin-bottom: 100px;
+}
+.plus{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+}
+.minus{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.ennonce-reserv{
+    display: flex;
+    
+    
+}
+.planned-reserv{
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    color: #1C1F23;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.container-product{
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    color: #1C1F23;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.waiting-reserv{
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+    color: #1C1F23;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+td > p{
+    
+    height: 10px;
+    width: 152px;
+    
+}
+
+
+.carterdclio{
+    
+    height: 10vh;
+    
+}
+
+/* fin crud */
+@media screen and (max-width:680px) {
+    .card{
+        display: block;
+    }
+    .picun{
+        width:100%;
+        padding: 0px;
+        
+    }
+    .textbanner{
+        padding-top: 160px;
+    }
+    .textindex{
+        width: 100%;
+    }
+    
+    .textcard{
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+    #secondcard{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menu-categories{
+        gap:5ch;
+    }
+    #lastdiv{
+        margin-top: 5ch;
+    }
+    .couverts{
+        gap:2ch;
+    }
+    
+}
+@media screen and (max-width:478px) {
+
+   
+        .menu-categories{
+            gap:2ch;
+        }
+        .menu-category{
+            height:150px;
+            width: 150px;
+        }
+        #lastdiv{
+            margin-top: 2ch;
+        }
+        .couverts{
+            gap:2ch;
+        }
+
+}
